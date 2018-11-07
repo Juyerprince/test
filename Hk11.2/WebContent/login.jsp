@@ -8,6 +8,15 @@
 <title>Insert title here</title>
 <script type="text/javascript" src="jquery-1.11.1.js"></script>
 <script type="text/javascript">
+
+
+
+
+
+
+
+
+
 	function changeImageCode(){
 		 var url = "imageCode.do?a="+new Date().getMilliseconds();  
 		    $("img").attr("src",url);
